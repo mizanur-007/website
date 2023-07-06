@@ -30,3 +30,40 @@
     font-weight: bold;
     cursor: pointer;
 }
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    background-image: url("background.png") linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.banner-photo{
+    display: flex;
+    width: 300px;
+}
+.description{
+    /* display: flex; */
+}
+.title{
+    color: rgb(9, 129, 234);
+    font-weight: bold;
+    /* font-size: larger; */
+    font-size: xx-large;
+}
+.info{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}
